@@ -1,0 +1,146 @@
+.hidden{
+  display: none;
+}
+
+#container{
+    font-size: 20px;
+    font-weight: 400;
+    color: #444;
+    font-family: 'Irish Grover', cursive;
+    /* background: wheat; */
+}
+
+.inner{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* 배경화면 이동 버튼 */
+#bgImg{
+  text-align: center;
+  margin-left: 100px;
+}
+header button{
+  margin: 50px 10px;
+}
+header button img{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+#logoutBtn{
+  float: right;
+  width: 70px;
+  height: 30px;
+  vertical-align: middle;
+}
+button {
+	color: rgba(30, 22, 54, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+button:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(121, 104, 171, 0.7) 0 0px 0px 40px inset;
+}
+
+#greeting{
+  margin-left: 100px;
+  color: whitesmoke;
+}
+
+#clock{
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+}
+#loginForm{
+    padding-top: 90px;
+    /* background: red; */
+}
+#loginBtn,#loginBtn::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#loginBtn{
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+#loginBtn::before,#loginBtn::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+#loginBtn:hover {
+  color: #000000;
+}
+
+/* BUTTON 5 */
+#loginBtn {
+  overflow: hidden;
+}
+
+#loginBtn::after {
+  /* background-color: #f00; */
+  height: 100%;
+  left: -35%;
+  top: 0;
+  transform: skew(50deg);
+  transition-duration: 0.6s;
+  transform-origin: top left;
+  width: 0;
+}
+
+#loginBtn:hover:after {
+  height: 100%;
+  width: 135%;
+}
+
+#todo-form{
+  margin-top: 20px;
+}
+
+#todo-list{
+  /* background: red; */
+  margin: 0 149px;
+  border: sandybrown;
+  /* background: sandybrown; */
+}
+
+#todo-list li{
+  margin-top: 10px;
+  /* background: black; */
+  border: sandybrown;
+  background: none;
+  border: 3px solid whitesmoke;
+  /* display: inline-block; */
+}
+
+#todo-list span{
+  color: white;
+  float: left;
+  margin-right: 72%;
+}
+
+footer{
+  color: whitesmoke;
+  margin-top: 20px;
+  padding-top: 30%;
+}

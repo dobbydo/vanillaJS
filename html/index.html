@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>daily diary</title>
+</head>
+<body id="container">
+    <header>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <div id="bgImg">
+            <button><img src="../img/pngegg-5.png" alt=""></button>
+            <button><img src="../img/pngegg.png" alt=""></button>
+            <button><img src="../img/pngegg-4.png" alt=""></button>
+            <button><img src="../img/pngegg-6.png" alt=""></button>
+            <button id="logoutBtn" class="hidden">Log out</button>
+        </div>
+    </header>
+    <div class="inner">
+        <h1 id="greeting">asdasd</h1>
+        <div id="clock">
+            <h1 class="hidden">00:00:00</h1>
+            <h1 id="dday">00:00:00</h1>
+        </div>
+        <div id="loginForm" class="hidden">
+            <button id="loginBtn">Login</button>
+        </div>
+        <form id="todo-form">
+            <input type="text" placeholder="Write a memo" required/>
+        </form>
+        <ul id="todo-list"></ul>
+
+    </div>
+    <footer class="inner">
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+    </footer>
+    <!-- <script src="../js/weather.js"></script> -->
+    <script src="../js/index.js"></script>
+    <script src="../js/quotes.js"></script>
+    <script src="../js/inedxlogin.js"></script>
+    <script src="../js/indextime.js"></script>
+    <script src="../js/indexbg.js"></script>
+    <script src="../js/todo.js"></script>
+</body>
+</html>
